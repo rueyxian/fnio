@@ -1,0 +1,13 @@
+[package]
+name = "fnio"
+license = "MIT"
+description = "function io"
+author = ["rueyxian <yrueyxian@gmail.com>"]
+documentation = "https://docs.rs/fnio"
+version = "0.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.17.0", features = ["rt", "sync"] }
